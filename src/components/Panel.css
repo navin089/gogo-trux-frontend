@@ -1,0 +1,25 @@
+.panel{
+    flex:0.82;
+    height: 100vh;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.panel__header{
+    display: flex;
+    background-color: whitesmoke;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.panel__headerLeft{
+    display: flex;
+}
+.panel__headerLeft > p{
+    font-weight: 600;
+    margin-left: 10px;
+}

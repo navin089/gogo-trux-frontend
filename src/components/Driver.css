@@ -1,0 +1,53 @@
+.driver {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .driver__header {
+    padding: 10px;
+    font-weight: 800;
+    border-bottom: 2px solid whitesmoke;
+  }
+  
+  .driver__headerInput {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .driver__headerInputSearch {
+    padding-right: 30px !important;
+  }
+  
+  .driver__headerInputSelect {
+    margin-left: -15px !important;
+    padding-left: 50px !important;
+    height: 40px !important;
+    text-align: center !important;
+  }
+  
+  .driver__searchReset {
+    margin-left: 10px !important;
+    margin-top: 1px !important;
+  }
+  
+  .driver__addDriver {
+    border: none !important;
+    outline: none !important;
+    color: white !important;
+    background-color: rgb(16, 185, 241) !important;
+  }
+  
+  .driver__exportButton {
+    width: 8rem;  
+    border: none !important;
+    outline: none !important;
+    color: white !important;
+    background-color: rgb(27, 187, 27) !important;
+    margin-left: 20px !important;
+  }
+  
+  .driver__data{
+      padding: 20px !important;
+  }
+  
